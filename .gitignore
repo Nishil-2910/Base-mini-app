@@ -1,0 +1,26 @@
+# Node modules and build outputs
+node_modules/
+.next/
+dist/
+build/
+out/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# VS Code settings
+.vscode/
+
+# Logs and runtime
+*.log
+npm-debug.log*
+
+# Environment variables
+.env
+.env.*.local
+
+# Dependency lock files (optional if not committing them)
+pnpm-lock.yaml
+yarn.lock
+package-lock.json
